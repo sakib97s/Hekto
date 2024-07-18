@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 import { useState } from 'react';
 
 const Navbar = () => {
-    const [activeTab, setActiveTab] = useState('Home');
+    const [activeTab, setActiveTab] = useState();
 
     return (
         <section className="my-[15px]">
@@ -21,11 +21,11 @@ const Navbar = () => {
                             <li className={`font-lato font-normal text-[16px] hover:text-[#FB2E86] ${activeTab === 'blog' ? 'text-[#FB2E86]' : 'text-[#0D0E43]'}`} onClick={() => setActiveTab('blog')}><Link to="/blog">Blog</Link></li>
                             <li className="font-lato font-normal text-[#0D0E43] text-[16px] hover:text-[#FB2E86]">Products</li>
                             <li className="font-lato font-normal text-[#0D0E43] text-[16px] hover:text-[#FB2E86]">Shop</li>
-                            <li className="font-lato font-normal text-[#0D0E43] text-[16px] hover:text-[#FB2E86]">Contact</li>
+                            <li className={`font-lato font-normal text-[16px] hover:text-[#FB2E86] ${activeTab === 'contact' ? 'text-[#FB2E86]' : 'text-[#0D0E43]'}`} onClick={() => setActiveTab('contact')}><Link to="/contact">Contact</Link></li>
                         </ul>
                         <div className="">
                             <div className="relative">
-                                <input type="search" className='border-[1px] border-[#D9D9D9] outline-none w-[260px] h-[38px] p-2 mr-[38px] bg-[#D9D9D9]' placeholder="Search Products" />
+                                <input type="search" className='border-[1px] border-[#0e0c0c] outline-none w-[260px] h-[38px] p-2 mr-[38px] bg-[#D9D9D9]' placeholder="Search Products" />
                                 <div className="absolute top-[50%] translate-y-[-50%] right-[0px] border-[1px] border-[#FB2E86] bg-[#FB2E86] p-[10px]">
                                     <FaSearch className="" />
                                 </div>

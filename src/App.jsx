@@ -7,6 +7,9 @@ import ProDetails from "./page/ProDetails"
 import Blog from "./page/Blog"
 import SingleBlog from "./components/SingleBlog"
 import AboutUs from "./page/AboutUs"
+import ContactUs from "./page/ContactUs"
+import NotFound from "./page/NotFound"
+import Faq from "./page/Faq"
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout />}>
@@ -17,6 +20,10 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/blog" element={<Blog />}></Route>
     <Route path="/single-blog" element={<SingleBlog />}></Route>
     <Route path="/About-Us" element={<AboutUs />}></Route>
+    <Route path="/contact" element={<ContactUs />}></Route>
+    <Route path="/faq" element={<Faq />}></Route>
+    <Route path="*" element={<NotFound />}></Route>
+
   </Route>
 ))
 

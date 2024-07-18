@@ -7,6 +7,9 @@ import delivery from "../assets/shopex/free-delivery.png"
 import premium from "../assets/shopex/premium.png"
 
 const AboutUs = () => {
+
+
+
     return (
         <section>
             <Bannerreusable headline='About Us' pname='About Us' home='Home ' page='Pages' />
@@ -60,7 +63,10 @@ const AboutUs = () => {
                 </div>
                 <div className="">
                     <h4 className="font-jose font-bold text-[42px] text-[#000000] text-center">Our Client Say!</h4>
+
                 </div>
+
+
 
             </Container>
         </section>
