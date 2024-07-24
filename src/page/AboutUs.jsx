@@ -5,6 +5,7 @@ import hours from "../assets/shopex/24hours.png"
 import cashback from "../assets/shopex/cashback.png"
 import delivery from "../assets/shopex/free-delivery.png"
 import premium from "../assets/shopex/premium.png"
+import { Link } from "react-router-dom"
 
 const AboutUs = () => {
 
@@ -25,7 +26,7 @@ const AboutUs = () => {
                         <p className="font-lato font-semibold text-[16px] text-[#8A8FB9] pt-4 pb-20">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.
                         </p>
-                        <button className="font-lato font-semibold text-[18px] text-[#fff] py-[9px] px-[30px] bg-[#FB2E86] rounded-lg">Contact us</button>
+                        <Link to='/contact'><button className="font-lato font-semibold text-[18px] text-[#fff] py-[9px] px-[30px] bg-[#FB2E86] rounded-lg">Contact us</button></Link>
                     </div>
                 </div>
                 <div className="my-10">

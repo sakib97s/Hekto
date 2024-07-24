@@ -3,6 +3,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { IoCall } from "react-icons/io5";
 import { RiArrowDropDownLine, RiShoppingCartFill } from "react-icons/ri";
 import { FaHeart, FaRegUser } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -37,7 +38,7 @@ const Header = () => {
                             <h6 className="font-jose font-semibold text-[#F1F1F1] text-[16px]">Wishlist</h6>
                             <FaHeart className="text-[#F1F1F1] ml-[5px]" />
                         </div>
-                        <RiShoppingCartFill className="text-[#F1F1F1] h-[20px] w-[20px]" />
+                        <Link to='/cart'><RiShoppingCartFill className="text-[#F1F1F1] h-[20px] w-[20px] hover:text-[#FB2E86]" /></Link>
                     </div>
                 </div>
 

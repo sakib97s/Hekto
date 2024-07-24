@@ -11,15 +11,45 @@ import seat3 from "../assets/trending/seat/seat3.png"
 import LatestProreusable from "./reusable/LatestProreusable"
 import NameTrendingreusable from "./reusable/NameTrendingreusable"
 import uniqsofa from "../assets/shopex/uniqsofa.png"
+import { GoDotFill } from "react-icons/go";
 
 
 const TreandingPro = ({ name, price, pricex }) => {
     return (
         <section>
+            <section className="bg-[#F1F0FF] pt-10">
+                <Container>
+                    <div className=" flex justify-around items-center mb-10 ">
+                        <img src={uniqsofa} alt="uniqsofa" />
+                        <div className="w-[40%]">
+                            <h2 className="font-jose font-bold text-[40px] text-[#151875]">Unique Features Of leatest & Treanding Poducts</h2>
+                            <div className="py-10">
+                                <div className="flex items-center">
+                                    <GoDotFill className="text-[#DE9034] w-[25px] h-[25px]" />
+                                    <p className="font-lato font-medium text-[14px] text-[#8A91AB] pl-3">All frames contstructed with hardwood solids and laminates</p>
+                                </div>
+                                <div className="flex items-center">
+                                    <GoDotFill className="text-[#EC42A2] w-[25px] h-[25px]" />
+                                    <p className="font-lato font-medium text-[14px] text-[#8A91AB] pl-3 py-5">Reinforced with double wood dowels, glue, screw - nails corner blocks and machine nails</p>
+                                </div>
+                                <div className="flex items-center">
+                                    <GoDotFill className="text-[#8568FF] w-[25px] h-[25px]" />
+                                    <p className="font-lato font-medium text-[14px] text-[#8A91AB] pl-3">Arms, back and seats are structurally reinforced</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center">
+                                <button className="font-jose font-normal text-[17px] text-[#fff] px-[48px] py-[20px] bg-[#FB2E86]">Add to Cart</button>
+                                <div className="pl-5">
+                                    <h5 className="font-jose font-normal text-[16px] text-[#151875]">B & B Italian Sofa</h5>
+                                    <h6 className="font-jose font-normal text-[14px] text-[#151875]">$32.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
             <Container>
-                <div className="bg-[#F1F0FF] flex justify-center mb-10">
-                    <img src={uniqsofa} alt="uniqsofa" />
-                </div>
+
                 <div className="text-center my-10">
                     <h2 className="font-jose font-bold text-[40px] text-[#1A0B5B]">Trending Products</h2>
                 </div>

@@ -1,8 +1,7 @@
 import ShopGridDefault from "../components/ShopGridDefault"
 import Sponser from "../components/Sponser"
 
-
-const Page = () => {
+const Shop = () => {
     return (
         <>
             <ShopGridDefault />
@@ -11,4 +10,4 @@ const Page = () => {
     )
 }
 
-export default Page
+export default Shop

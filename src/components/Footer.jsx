@@ -13,12 +13,12 @@ const Footer = () => {
                         <div className="w-[30%]">
                             <img src={logo} alt="" />
                             <div className="border-[1px] border-[#FFFFFF] w-[377px] rounded-md my-7">
-                                <input type="email" name="" placeholder="Enter Email Address" className="w-[240px] border-none placeholder:font-lato placeholder:font-normal placeholder:text-[16px] placeholder:text-[#8A8FB9]" id="" />
+                                <input type="email" name="" placeholder="Enter Email Address" className="w-[238px] border-none placeholder:font-lato placeholder:font-normal placeholder:text-[16px] placeholder:text-[#8A8FB9]" id="" />
                                 <button className="font-lato font-medium text-[16px] text-[#fff] py-[9px] px-[40px] bg-[#FB2E86] rounded-md">Sign Up</button>
                             </div>
                             <div className="">
                                 <p className="font-lato font-normal text-[16px] text-[#8A8FB9]">Contact Info</p>
-                                <p className="font-lato font-normal text-[16px] text-[#8A8FB9]">17 Princess Road, London, Greater London NW1 8JR, UK</p>
+                                <p className="font-lato font-normal text-[16px] text-[#8A8FB9] w-[238px] pt-5">17 Princess Road, London, Greater London NW1 8JR, UK</p>
                             </div>
                         </div>
                         <div className="w-[60%] flex justify-around">

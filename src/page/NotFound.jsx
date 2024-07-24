@@ -652,7 +652,7 @@ const NotFound = ({ headline, pname, home, page }) => {
                 </div>
                 <div className="">
                     <h5 className="font-jose font-bold text-[24px] text-[#152970]">ooPs! The page you requested was not found!</h5>
-                    <button className="font-jose font-normal text-[16px] text-[#fff] py-[9px] px-[30px] border bg-[#FB2E86] mt-10 rounded-md"><Link to="/">Back To Home</Link></button>
+                    <Link to="/"><button className="font-jose font-normal text-[16px] text-[#fff] py-[9px] px-[30px] border bg-[#FB2E86] mt-10 rounded-md">Back To Home</button></Link>
                 </div>
             </Container>
             <Sponser />

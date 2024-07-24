@@ -14,7 +14,7 @@ const DiscountItem = () => {
                 <div className="text-center ">
                     <h2 className='font-jose font-bold text-[40px] text-[#1A0B5B]'>Leatest Products</h2>
                 </div>
-                <div className="">
+                <div className="mt-5">
                     <div className="mb-4">
                         <ul className="flex flex-wrap justify-center -mb-px text-sm font-medium text-center" id="default-tab" role="tablist">
                             <li className="me-2" role="presentation">
