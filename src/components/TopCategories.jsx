@@ -37,7 +37,7 @@ const TopCategories = () => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
                 }
             }
         ]
@@ -45,70 +45,70 @@ const TopCategories = () => {
 
 
     return (
-        <section className="my-10">
+        <section className="lg:my-10 my-5">
             <Container>
-                <div className="text-center mb-10">
-                    <h2 className='font-jose font-bold text-[40px] text-[#1A0B5B]'>Top Categories</h2>
+                <div className="text-center lg:mb-10 mb-5">
+                    <h2 className='font-jose font-bold text-[30px] lg:text-[40px] text-[#1A0B5B]'>Top Categories</h2>
                 </div>
                 <Slider {...settings}>
                     <div className="">
-                        <div className="group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
+                        <div className="mx-auto group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
                             <div className="rounded-full bg-[#F6F7FB] p-[60px] absolute group-hover:bottom-3 group-hover:left-3 ease-in-out duration-700">
                                 <img src={top} className="" height={178} width={178} alt="" />
                                 <Viewreusable />
                             </div>
                         </div>
                         <div className="text-center pt-5">
-                            <h6 className="font-jose font-normal text-[20px] text-[#151875]">Mini <span className="pr-[5px] items-center">LCW</span>Chair</h6>
-                            <p className="font-jose font-normal text-[16px] text-[#151875]">$56.00</p>
+                            <h6 className="font-jose font-normal text-[15px] lg:text-[20px] text-[#151875]">Mini LCW Chair</h6>
+                            <p className="font-jose font-normal text-[12px] lg:text-[16px] text-[#151875]">$56.00</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
+                        <div className="mx-auto group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
                             <div className="rounded-full bg-[#F6F7FB] p-[60px] absolute group-hover:bottom-3 group-hover:left-3 ease-in-out duration-700">
                                 <img src={top2} className="" height={178} width={178} alt="" />
                                 <Viewreusable />
                             </div>
                         </div>
                         <div className="text-center pt-5">
-                            <h6 className="font-jose font-normal text-[20px] text-[#151875]">Mini <span className="pr-[5px] items-center">LCW</span>Chair</h6>
-                            <p className="font-jose font-normal text-[16px] text-[#151875]">$56.00</p>
+                            <h6 className="font-jose font-normal text-[15px] lg:text-[20px] text-[#151875]">Mini LCW Chair</h6>
+                            <p className="font-jose font-normal text-[12px] lg:text-[16px] text-[#151875]">$56.00</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
+                        <div className="mx-auto group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
                             <div className="rounded-full bg-[#F6F7FB] p-[60px] absolute group-hover:bottom-3 group-hover:left-3 ease-in-out duration-700">
                                 <img src={top3} className="" height={178} width={178} alt="" />
                                 <Viewreusable />
                             </div>
                         </div>
                         <div className="text-center pt-5">
-                            <h6 className="font-jose font-normal text-[20px] text-[#151875]">Mini <span className="pr-[5px] items-center">LCW</span>Chair</h6>
-                            <p className="font-jose font-normal text-[16px] text-[#151875]">$56.00</p>
+                            <h6 className="font-jose font-normal text-[15px] lg:text-[20px] text-[#151875]">Mini LCW Chair</h6>
+                            <p className="font-jose font-normal text-[12px] lg:text-[16px] text-[#151875]">$56.00</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
+                        <div className="mx-auto group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
                             <div className="rounded-full bg-[#F6F7FB] p-[60px] absolute group-hover:bottom-3 group-hover:left-3 ease-in-out duration-700">
                                 <img src={top4} className="" height={178} width={178} alt="" />
                                 <Viewreusable />
                             </div>
                         </div>
                         <div className="text-center pt-5">
-                            <h6 className="font-jose font-normal text-[20px] text-[#151875]">Mini <span className="pr-[5px] items-center">LCW</span>Chair</h6>
-                            <p className="font-jose font-normal text-[16px] text-[#151875]">$56.00</p>
+                            <h6 className="font-jose font-normal text-[15px] lg:text-[20px] text-[#151875]">Mini LCW Chair</h6>
+                            <p className="font-jose font-normal text-[12px] lg:text-[16px] text-[#151875]">$56.00</p>
                         </div>
                     </div>
                     <div className="">
-                        <div className="group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
+                        <div className="mx-auto group relative bg-[#9877E7] h-[280px] w-[280px] rounded-full drop-shadow-lg">
                             <div className="rounded-full bg-[#F6F7FB] p-[60px] absolute group-hover:bottom-3 group-hover:left-3 ease-in-out duration-700">
                                 <img src={top} className="" height={178} width={178} alt="" />
                                 <Viewreusable />
                             </div>
                         </div>
                         <div className="text-center pt-5">
-                            <h6 className="font-jose font-normal text-[20px] text-[#151875]">Mini <span className="pr-[5px] items-center">LCW</span>Chair</h6>
-                            <p className="font-jose font-normal text-[16px] text-[#151875]">$56.00</p>
+                            <h6 className="font-jose font-normal text-[15px] lg:text-[20px] text-[#151875]">Mini LCW Chair</h6>
+                            <p className="font-jose font-normal text-[12px] lg:text-[16px] text-[#151875]">$56.00</p>
                         </div>
                     </div>
 
