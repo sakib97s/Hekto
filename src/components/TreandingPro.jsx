@@ -52,7 +52,7 @@ const TreandingPro = ({ name, price, pricex }) => {
                     <h2 className="font-jose font-bold text-[30px] lg:text-[40px] text-[#1A0B5B]">Trending Products</h2>
                 </div>
                 <div className="flex flex-wrap justify-around items-center mb-10">
-                    <div className="w-[49%] my-2 lg:my-0 lg:w-[24%] sm:w-[32%] md:w-[32%]">
+                    <div className="w-[49%] my-2 lg:my-0 lg:w-[19%] sm:w-[32%] md:w-[32%]">
                         <div className="group px-[10px] pt-[10px] pb-[20px] border-[1px]">
                             <div className="relative p-[30px] bg-[#F5F6F8] ease-in-out duration-500">
                                 <img src={tren1} className="w-[200px] h-[100px] lg:h-[200px]" alt="tren1" />
@@ -67,7 +67,7 @@ const TreandingPro = ({ name, price, pricex }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[49%] my-2 lg:my-0 lg:w-[24%] sm:w-[32%] md:w-[32%]">
+                    <div className="w-[49%] my-2 lg:my-0 lg:w-[19%] sm:w-[32%] md:w-[32%]">
                         <div className="group px-[10px] pt-[10px] pb-[20px] border-[1px]">
                             <div className="relative p-[30px] bg-[#F5F6F8] ease-in-out duration-500">
                                 <img src={tren2} className="w-[200px] h-[100px] lg:h-[200px]" alt="tren1" />
@@ -82,7 +82,7 @@ const TreandingPro = ({ name, price, pricex }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[49%] my-2 lg:my-0 lg:w-[24%] sm:w-[32%] md:w-[32%]">
+                    <div className="w-[49%] my-2 lg:my-0 lg:w-[19%] sm:w-[32%] md:w-[32%]">
                         <div className="group px-[10px] pt-[10px] pb-[20px] border-[1px]">
                             <div className="relative p-[30px] bg-[#F5F6F8] ease-in-out duration-500">
                                 <img src={tren3} className="w-[200px] h-[100px] lg:h-[200px]" alt="tren1" />
@@ -97,7 +97,8 @@ const TreandingPro = ({ name, price, pricex }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[49%] my-2 lg:my-0 lg:w-[24%] sm:w-[32%] md:w-[32%]">
+
+                    <div className="w-[49%] my-2 lg:my-0 lg:w-[19%] sm:w-[32%] md:w-[32%]">
                         <div className="group px-[10px] pt-[10px] pb-[20px] border-[1px]">
                             <div className="relative p-[30px] bg-[#F5F6F8] ease-in-out duration-500">
                                 <img src={tren4} className="w-[200px] h-[100px] lg:h-[200px]" alt="tren1" />
