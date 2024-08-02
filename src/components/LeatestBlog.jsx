@@ -9,11 +9,11 @@ const LeatestBlog = () => {
     return (
         <section>
             <Container>
-                <div className="text-center my-10">
-                    <h2 className="font-jose font-bold text-[40px] text-[#1A0B5B]">Leatest Blog</h2>
+                <div className="text-center my-5 lg:my-10">
+                    <h2 className="font-jose font-bold text-[30px] lg:text-[40px] text-[#1A0B5B]">Leatest Blog</h2>
                 </div>
-                <div className="flex justify-between items-center mb-10">
-                    <div className="w-[30%] group drop-shadow-lg rounded-lg bg-[#FFFFFF]">
+                <div className="flex flex-wrap justify-between items-center mb-10 mx-[10px] lg:mx-0">
+                    <div className="lg:w-[30%] group drop-shadow-lg rounded-lg bg-[#FFFFFF] my-3">
                         <img src={blog} className="w-full" alt="" />
                         <div className="flex items-center py-5 pl-8">
                             <div className="flex items-center pr-8">
@@ -34,7 +34,7 @@ const LeatestBlog = () => {
                             <button className="font-lato font-bold text-[16px] text-[#151875] underline underline-offset-4 group-hover:text-[#FB2E86] ease-in-out duration-500">Read More</button>
                         </div>
                     </div>
-                    <div className="w-[30%] group drop-shadow-lg rounded-lg bg-[#FFFFFF]">
+                    <div className="lg:w-[30%] group drop-shadow-lg rounded-lg bg-[#FFFFFF] my-3">
                         <img src={blog2} className="w-full" alt="" />
                         <div className="flex items-center py-5 pl-8">
                             <div className="flex items-center pr-8">
@@ -55,7 +55,7 @@ const LeatestBlog = () => {
                             <button className="font-lato font-bold text-[16px] text-[#151875] underline underline-offset-4 group-hover:text-[#FB2E86] ease-in-out duration-500">Read More</button>
                         </div>
                     </div>
-                    <div className="w-[30%] group drop-shadow-lg rounded-lg bg-[#FFFFFF]">
+                    <div className="lg:w-[30%] group drop-shadow-lg rounded-lg bg-[#FFFFFF] my-3">
                         <img src={blog3} className="w-full" alt="" />
                         <div className="flex items-center py-5 pl-8">
                             <div className="flex items-center pr-8">

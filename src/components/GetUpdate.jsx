@@ -1,4 +1,4 @@
-import Sponser from "./Sponser"
+
 
 
 const GetUpdate = () => {
