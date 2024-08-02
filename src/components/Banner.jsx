@@ -12,7 +12,7 @@ const Banner = () => {
 
     return (
         <section>
-            <div className="slider-container my-10">
+            <div className="slider-container lg:my-10 my-5">
                 <Slider {...settings}>
                     <div className="">
                         <img src={banner} className='w-full z-0' alt="banner" />

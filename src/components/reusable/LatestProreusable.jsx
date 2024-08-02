@@ -1,8 +1,8 @@
 
 import { IoCartOutline } from "react-icons/io5";
 import { FaSearchPlus } from "react-icons/fa";
-import { useState } from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
+import { useState } from "react";
 
 const LatestProreusable = () => {
     let [activeIcon, setActiveIcon] = useState('')
