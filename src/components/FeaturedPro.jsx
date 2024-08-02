@@ -14,11 +14,12 @@ const FeaturedPro = () => {
     let [activeIcon, setActiveIcon] = useState('')
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
-        slidesToShow: 5,
-        initialSlide: 0,
+        slidesToShow: 3,
+        slidesToScroll: 1,
         autoplay: true,
+        speed: 2000,
         autoplaySpeed: 2000,
 
         responsive: [
@@ -52,13 +53,13 @@ const FeaturedPro = () => {
 
     return (
         <section className="lg:my-8">
-            <Container className=''>
+            <Container className='text-center'>
                 <div className="text-center lg:my-10 mb-5">
                     <h2 className="font-jose font-bold lg:text-[40px] text-[30px] text-[#1A0B5B]">Featured Products</h2>
                 </div>
                 <Slider {...settings}>
                     <div className="mb-3">
-                        <div className="group lg:w-[270px] w-[170px] drop-shadow-lg">
+                        <div className="group lg:w-[270px] w-full drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair} className="lg:w-[270px] w-[170px] h-[170px] lg:h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <div className="">
@@ -91,7 +92,7 @@ const FeaturedPro = () => {
                         </div>
                     </div>
                     <div className="mb-3">
-                        <div className="group lg:w-[270px] w-[170px] drop-shadow-lg">
+                        <div className="group lg:w-[270px] w-full drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair2} className="lg:w-[270px] w-[170px] h-[170px] lg:h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <div className="">
@@ -124,7 +125,7 @@ const FeaturedPro = () => {
                         </div>
                     </div>
                     <div className="mb-3">
-                        <div className="group lg:w-[270px] w-[170px] drop-shadow-lg">
+                        <div className="group lg:w-[270px] w-full drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair3} className="lg:w-[270px] w-[170px] h-[170px] lg:h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <div className="">
@@ -157,7 +158,7 @@ const FeaturedPro = () => {
                         </div>
                     </div>
                     <div className="mb-3">
-                        <div className="group lg:w-[270px] w-[170px] drop-shadow-lg">
+                        <div className="group lg:w-[270px] w-full drop-shadow-lg">
                             <div className="relative">
                                 <img src={chair4} className="lg:w-[270px] w-[170px] h-[170px] lg:h-[270px] bg-[#F6F7FB] group-hover:bg-[#F7F7F7]" alt="" />
                                 <div className="">
@@ -189,8 +190,6 @@ const FeaturedPro = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </Slider>
             </Container>
         </section>

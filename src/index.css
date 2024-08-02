@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-dots .slick-active div{
-    border-right: 10px #262626 solid !important;
-    color: #262626 !important;
+.slick-arrow{
+    display: none;
+    left: 0px;
+    right: 0;
+    opacity: 0;
 }
