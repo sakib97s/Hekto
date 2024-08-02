@@ -8,7 +8,7 @@ const LatestProreusable = () => {
     let [activeIcon, setActiveIcon] = useState('')
     return (
         <section className="group">
-            <div className="">
+            <div className="group">
                 <div className="absolute bottom-[-10px] left-[20px] opacity-0 group-hover:overflow-hidden group-hover:bottom-[30px] group-hover:opacity-100 ease-in-out duration-700">
                     <div onClick={() => setActiveIcon('IoCartOutline')} className={`border-[1px] p-[7px] rounded-full ${activeIcon === 'IoCartOutline' ? ' text-[#2F1AC4] bg-[#EEEFFB]' : 'bg-none border-none text-[#1389FF]'}`} aria-selected={activeIcon === 'IoCartOutline'}>
                         <IoCartOutline />
